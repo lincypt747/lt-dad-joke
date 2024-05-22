@@ -8,6 +8,7 @@ require('dotenv').config();
 //Configure veriables
 const  PORT = process.env.PORT || 3000;
 const app = express();
+
 //MIDDLEWARE PIPELINE
 //Use middleware
 app.use(cors());
